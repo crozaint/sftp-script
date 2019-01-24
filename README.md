@@ -20,5 +20,7 @@ cd sftp-script
 ```
 
 ## To add new user
-```./newuser.sh document-root username```
+```
+./newuser.sh document-root username
+```
 
