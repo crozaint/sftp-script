@@ -38,7 +38,7 @@ echo "$pwd_sftp" | passwd sftpuser --stdin
 #echo "ftpuser:$pwd_sftp" | chpasswd 
 
 echo "Restarting services"
-/etc/init.d/sshd restart
+service sshd restart
 
 echo "============================"
 echo "Changing ownership of /var/www/html to apache"
